@@ -15,5 +15,5 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-life teeest1234 asdasd!");
+    alert("Hello, wasm-template!");
 }
