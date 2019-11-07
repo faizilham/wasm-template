@@ -1,6 +1,6 @@
 [package]
-name = "wasm-life"
-version = "0.1.1"
+name = "wasm-template"
+version = "0.1.0"
 authors = ["Faiz Ilham <faizilham.faizz@gmail.com>"]
 edition = "2018"
 
