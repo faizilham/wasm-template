@@ -13,6 +13,13 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: production ? "index-[hash:8].js" : "index.js",
   },
+
+  resolve: {
+    alias: {
+      "wasm-pkg": path.resolve(__dirname, 'pkg')
+    }
+  },
+
   mode: production ? "production" : "development",
 
   optimization: {
